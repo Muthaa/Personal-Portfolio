@@ -28,6 +28,21 @@
 	Use Cases:
 	Can be integrated into any website to display a changelog or update log.
 
+# Testimonials Component
+
+	Goal: To create visually appealing testimonial cards showcasing user feedback or reviews.
+	Key Features:
+	HTML Structure:
+	Cards containing a user's image, name, role, and testimonial text.
+	CSS Styling:
+	Responsive layout using CSS Grid and Flexbox.
+	Use of consistent margins, paddings, and typography for a clean design.
+	Shadow effects and hover interactions for better user experience.
+	Customization:
+	Add any images, content, and layouts to personalize the testimonials.
+	Use Cases:
+	Can be placed on a website's homepage or dedicated testimonials section to build credibility.
+
 ## Features
 
 - **Multiple Pages**:

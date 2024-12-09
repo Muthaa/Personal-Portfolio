@@ -3,17 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Description of the specific page for SEO.">
-  <meta name="keywords" content="HTML, Website, Navigation, Projects, Articles, Contact">
-  <meta name="author" content="Your Name">
-  <title>Home</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portfolio showcasing projects, articles, updates, and testimonials.">
+  <meta name="keywords" content="HTML, CSS, Portfolio, Changelog, Testimonials">
+  <meta name="author" content="Muthaa">
+  <title>Portfolio Home</title>
+  <link rel="stylesheet" href="style1.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Header Section -->
   <header>
-    <h1>Portfolio Home</h1>
-    <p>A brief tagline or description.</p>
+    <div class="header-content">
+      <h1>Home</h1>
+      <!--<p>A brief tagline or description.</p>-->
+    </div>
     <!-- Navigation Bar -->
     <nav>
       <ul>
@@ -25,39 +28,71 @@
     </nav>
   </header>
 
+  <!-- Main Section -->
   <main>
-    <h2>Welcome to My Website</h2>
-	<p>This is the homepage. Here you can find an introduction and links to other pages.</p>
-  </main>
-  
-    <section class="changelog">
-    <h1>Changelog</h1>
-    <div class="log-entry">
-      <div class="log-header">
-        <h2>Version 2.1.0</h2>
-        <span class="log-date">December 8, 2024</span>
-      </div>
-      <ul>
-        <li>Added new feature for user profiles.</li>
-        <li>Fixed bug causing app crashes on Android 10.</li>
-        <li>Improved page loading speeds by 20%.</li>
-      </ul>
-    </div>
-    <div class="log-entry">
-      <div class="log-header">
-        <h2>Version 2.0.0</h2>
-        <span class="log-date">November 15, 2024</span>
-      </div>
-      <ul>
-        <li>Complete UI redesign.</li>
-        <li>Updated the app to support dark mode.</li>
-        <li>Bug fixes and performance improvements.</li>
-      </ul>
-    </div>
-  </section>
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <h2>Welcome to My Website</h2>
+      <p>This is the homepage. Here you can find an introduction and links to other pages.</p>
+    </section>
 
+    <!-- Changelog Section -->
+    <section class="changelog">
+      <h2>Changelog</h2>
+      <div class="log-entry">
+        <div class="log-header">
+          <h3>Version 2.1.0</h3>
+          <span class="log-date">December 8, 2024</span>
+        </div>
+        <ul>
+          <li>Added new feature for user profiles.</li>
+          <li>Fixed bug causing app crashes on Android 10.</li>
+          <li>Improved page loading speeds by 20%.</li>
+        </ul>
+      </div>
+      <div class="log-entry">
+        <div class="log-header">
+          <h3>Version 2.0.0</h3>
+          <span class="log-date">November 15, 2024</span>
+        </div>
+        <ul>
+          <li>Complete UI redesign.</li>
+          <li>Updated the app to support dark mode.</li>
+          <li>Bug fixes and performance improvements.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2>What People Are Saying</h2>
+      <div class="testimonial-card">
+        <img src="user1.jpg" alt="User 1">
+        <blockquote>
+          <p>"This website is incredible! The UI is clean and user-friendly."</p>
+          <footer>- Jane Doe, CEO of TechCorp</footer>
+        </blockquote>
+      </div>
+      <div class="testimonial-card">
+        <img src="user2.jpg" alt="User 2">
+        <blockquote>
+          <p>"The responsiveness and design are top-notch. Highly recommended!"</p>
+          <footer>- John Smith, Web Developer</footer>
+        </blockquote>
+      </div>
+      <div class="testimonial-card">
+        <img src="user3.jpg" alt="User 3">
+        <blockquote>
+          <p>"A truly amazing experience using this site. Great work!"</p>
+          <footer>- Alice Johnson, Designer</footer>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
   <footer>
-    <p>&copy; 2024 muthaa. All rights reserved.</p>
+    <p>&copy; 2024 Muthaa. All rights reserved.</p>
   </footer>
 </body>
 </html>
