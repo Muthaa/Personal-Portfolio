@@ -1,0 +1,67 @@
+/* Datepicker Styles */
+.datepicker {
+  background: #fff;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.datepicker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.datepicker-header .month-year {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-btn {
+  background: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-btn:hover {
+  background: #005f99;
+}
+
+.datepicker-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  font-weight: bold;
+  color: #555;
+}
+
+.date {
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.date:hover {
+  background-color: #007acc;
+  color: #fff;
+}
+
+.muted {
+  color: #bbb;
+  pointer-events: none;
+}

@@ -1,47 +1,55 @@
 ## Portfolio Website Project
 
-	Goal: To create a Portfolio website structure using HTML with multiple pages like Homepage, Projects, Articles, and Contact.
-	Key Features:
-	Semantic HTML structure.
-	Multi-page layout with a navigation bar.
-	Contact page includes a form with fields like Name, Email, and Message.
-	SEO meta tags for each page.
+Goal: To create a Portfolio website structure using HTML with multiple pages like Homepage, Projects, Articles, and Contact.
+Key Features:
+Semantic HTML structure.
+Multi-page layout with a navigation bar.
+Contact page includes a form with fields like Name, Email, and Message.
+SEO meta tags for each page.
 
 ## Styled HTML Website
 
-	Goal: To learn CSS techniques for styling and responsiveness by applying styles to the HTML structure created in the previous project.
-	Key Features:
-	Fully responsive design using Flexbox, CSS Grid, and media queries.
-	Styled navigation bar and contact form.
-	Custom typography using Google Fonts.
-	Dark mode support using CSS variables.
+Goal: To learn CSS techniques for styling and responsiveness by applying styles to the HTML structure created in the previous project.
+Key Features:
+Fully responsive design using Flexbox, CSS Grid, and media queries.
+Styled navigation bar and contact form.
+Custom typography using Google Fonts.
+Dark mode support using CSS variables.
 
 ## Changelog Component
 
-	Goal: To create a reusable and responsive changelog component to display updates or changes for a project.
-	Key Features:
-	HTML Structure:
-	A section containing multiple entries with version, date, and a list of updates.
-	CSS Styling:
-	Modern design with rounded corners and subtle shadows.
-	Responsive layout using Flexbox and media queries.
-	Use Cases:
-	Can be integrated into any website to display a changelog or update log.
+Goal: To create a reusable and responsive changelog component to display updates or changes for a project.
+Key Features:
+HTML Structure:
+A section containing multiple entries with version, date, and a list of updates.
+CSS Styling:
+Modern design with rounded corners and subtle shadows.
+Responsive layout using Flexbox and media queries.
+Use Cases:
+Can be integrated into any website to display a changelog or update log.
 
 ## Testimonials Component
 
-	Goal: To create visually appealing testimonial cards showcasing user feedback or reviews.
-	Key Features:
-	HTML Structure:
-	Cards containing a user's image, name, role, and testimonial text.
-	CSS Styling:
-	Responsive layout using CSS Grid and Flexbox.
-	Use of consistent margins, paddings, and typography for a clean design.
-	Shadow effects and hover interactions for better user experience.
-	Customization:
-	Add any images, content, and layouts to personalize the testimonials.
-	Use Cases:
-	Can be placed on a website's homepage or dedicated testimonials section to build credibility.
+Goal: To create visually appealing testimonial cards showcasing user feedback or reviews.
+Key Features:
+HTML Structure:
+Cards containing a user's image, name, role, and testimonial text.
+CSS Styling:
+Responsive layout using CSS Grid and Flexbox.
+Use of consistent margins, paddings, and typography for a clean design.
+Shadow effects and hover interactions for better user experience.
+Customization:
+Add any images, content, and layouts to personalize the testimonials.
+Use Cases:
+Can be placed on a website's homepage or dedicated testimonials section to build credibility.
+
+## Projects Page
+
+- ** Date Picker Component
+	Grid Layout: The days and dates are displayed in a clean, responsive grid using CSS Grid.
+	Navigation Buttons: Styled circular navigation buttons for switching months.
+	Effect: Highlights the date on hover to simulate interactivity.
+	Muted Days: Styles for days outside the current month to visually differentiate them.
 
 ## Features
 
@@ -127,3 +135,5 @@ https://roadmap.sh/projects/portfolio-website
 https://roadmap.sh/projects/changelog-component
 
 https://roadmap.sh/projects/testimonial-cards
+
+https://roadmap.sh/projects/datepicker-ui
