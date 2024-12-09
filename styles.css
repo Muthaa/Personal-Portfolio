@@ -1,0 +1,103 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+nav {
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* Header and Footer */
+header, footer {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Main content layout */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Contact form */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+form input, form textarea, form button {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  /* Layout for larger screens */
+  nav ul {
+    justify-content: flex-start;
+  }
+
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+:root {
+  --background: white;
+  --text: black;
+  --primary: #007bff;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: black;
+    --text: white;
+    --primary: #00bfff;
+  }
+}
