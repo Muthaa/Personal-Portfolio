@@ -1,6 +1,32 @@
 # Portfolio Website Project
 
-This project demonstrates how to structure a simple website using only HTML. It includes multiple pages and focuses on semantic HTML elements, SEO meta tags, and ease of styling in future projects.
+	Goal: To create a Portfolio website structure using HTML with multiple pages like Homepage, Projects, Articles, and Contact.
+	Key Features:
+	Semantic HTML structure.
+	Multi-page layout with a navigation bar.
+	Contact page includes a form with fields like Name, Email, and Message.
+	SEO meta tags for each page.
+
+# Styled HTML Website
+
+	Goal: To learn CSS techniques for styling and responsiveness by applying styles to the HTML structure created in the previous project.
+	Key Features:
+	Fully responsive design using Flexbox, CSS Grid, and media queries.
+	Styled navigation bar and contact form.
+	Custom typography using Google Fonts.
+	Dark mode support using CSS variables.
+
+# Changelog Component
+
+	Goal: To create a reusable and responsive changelog component to display updates or changes for a project.
+	Key Features:
+	HTML Structure:
+	A section containing multiple entries with version, date, and a list of updates.
+	CSS Styling:
+	Modern design with rounded corners and subtle shadows.
+	Responsive layout using Flexbox and media queries.
+	Use Cases:
+	Can be integrated into any website to display a changelog or update log.
 
 ## Features
 
@@ -81,3 +107,4 @@ This project is open-source and free to use for educational purposes.
 ---
 https://roadmap.sh/projects/basic-html-website
 https://roadmap.sh/projects/portfolio-website
+https://roadmap.sh/projects/changelog-component
