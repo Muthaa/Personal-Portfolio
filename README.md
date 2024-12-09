@@ -45,11 +45,17 @@ Can be placed on a website's homepage or dedicated testimonials section to build
 
 ## Projects Page
 
-- ** Date Picker Component
+- ** Date Picker Component**:
 	Grid Layout: The days and dates are displayed in a clean, responsive grid using CSS Grid.
 	Navigation Buttons: Styled circular navigation buttons for switching months.
 	Effect: Highlights the date on hover to simulate interactivity.
 	Muted Days: Styles for days outside the current month to visually differentiate them.
+	
+- ** Registration Form template**:
+	Progress Bar: A visual indicator shows form completeness.
+	Checklist: Requirements are displayed and visually checked off as conditions are met (add JavaScript for this).
+	Accessible Design: ARIA attributes ensure screen reader compatibility.
+	Responsive Layout: The form is easy to read on all d
 
 ## Features
 
@@ -122,6 +128,9 @@ This project is fully responsive and optimized for:
 - Add animations and transitions for smoother user experience.
 - Enhance the form with JavaScript for better validation and interactivity.
 - Add a footer with social media links.
+- Update progress bar value dynamically based on input completion.
+- Enable/disable checklist items as user fills out the form.
+- Show real-time validation errors for incomplete/incorrect inputs.
 
 ## License
 

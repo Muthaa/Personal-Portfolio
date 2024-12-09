@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Form with Progress Bar</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <main>
+    <section class="form-container">
+      <h1>Registration Form</h1>
+      <form>
+        <!-- Full Name -->
+        <div class="form-group">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" aria-required="true" placeholder="Enter your full name">
+        </div>
+        
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" aria-required="true" placeholder="Enter your email">
+        </div>
+        
+        <!-- Password -->
+        <div class="form-group">
+          <label for="password">Password</label>
+          <div class="password-wrapper">
+            <input type="password" id="password" name="password" aria-required="true" placeholder="Enter your password">
+            <button type="button" class="toggle-password" aria-label="Show password">👁️</button>
+          </div>
+        </div>
+        
+        <!-- Confirm Password -->
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" aria-required="true" placeholder="Confirm your password">
+        </div>
+        
+        <!-- Progress Bar -->
+        <div class="progress-container">
+          <label for="progress-bar">Form Completion</label>
+          <progress id="progress-bar" max="100" value="25" aria-valuenow="25" aria-valuemax="100">25%</progress>
+          <p class="progress-text">25% Complete</p>
+        </div>
+        
+        <!-- Checklist -->
+        <div class="checklist">
+          <p>Requirements:</p>
+          <ul>
+            <li><input type="checkbox" id="req-1" disabled> <label for="req-1">Full name is provided</label></li>
+            <li><input type="checkbox" id="req-2" disabled> <label for="req-2">Valid email address</label></li>
+            <li><input type="checkbox" id="req-3" disabled> <label for="req-3">Password is at least 8 characters</label></li>
+            <li><input type="checkbox" id="req-4" disabled> <label for="req-4">Passwords match</label></li>
+          </ul>
+        </div>
+        
+        <!-- Submit Button -->
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
