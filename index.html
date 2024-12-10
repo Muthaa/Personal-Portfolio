@@ -7,7 +7,8 @@
   <meta name="keywords" content="HTML, CSS, Portfolio, Changelog, Testimonials">
   <meta name="author" content="Muthaa">
   <title>Portfolio Home</title>
-  <link rel="stylesheet" href="style1.css">
+  <link rel="icon" type="image/x-icon" href="assets/images/ico.png">  
+  <link rel="stylesheet" href="assets/css/style1.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,11 +18,27 @@
 
     <!-- Navigation Bar -->
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="articles.html">Articles</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+          <span class="tooltip">Go to Home</span>
+        </li>
+        <li class="nav-item">
+          <a href="projects.html" class="nav-link">Projects</a>
+          <span class="tooltip">View Projects</span>
+        </li>
+        <li class="nav-item">
+          <a href="articles.html" class="nav-link">Articles</a>
+          <span class="tooltip">Read Articles</span>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+          <span class="tooltip">Contact Us</span>
+        </li>
+        <li class="nav-item">
+          <a href="gallery.html" class="nav-link">Gallery</a>
+          <span class="tooltip">Browse Gallery</span>
+        </li>
       </ul>
     </nav>
   </header>
@@ -65,21 +82,21 @@
     <section class="testimonials">
       <h2>What People Are Saying</h2>
       <div class="testimonial-card">
-        <img src="user1.jpg" alt="User 1">
+        <img src="assets/images/download.png" alt="User 1">
         <blockquote>
           <p>"This website is incredible! The UI is clean and user-friendly."</p>
           <footer>- Jane Doe, CEO of TechCorp</footer>
         </blockquote>
       </div>
       <div class="testimonial-card">
-        <img src="user2.jpg" alt="User 2">
+        <img src="assets/images/download.png" alt="User 2">
         <blockquote>
           <p>"The responsiveness and design are top-notch. Highly recommended!"</p>
           <footer>- John Smith, Web Developer</footer>
         </blockquote>
       </div>
       <div class="testimonial-card">
-        <img src="user3.jpg" alt="User 3">
+        <img src="assets/images/download.png" alt="User 3">
         <blockquote>
           <p>"A truly amazing experience using this site. Great work!"</p>
           <footer>- Alice Johnson, Designer</footer>

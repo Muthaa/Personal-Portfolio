@@ -55,7 +55,19 @@ Can be placed on a website's homepage or dedicated testimonials section to build
 	Progress Bar: A visual indicator shows form completeness.
 	Checklist: Requirements are displayed and visually checked off as conditions are met (add JavaScript for this).
 	Accessible Design: ARIA attributes ensure screen reader compatibility.
-	Responsive Layout: The form is easy to read on all d
+	Responsive Layout: The form is easy to read on all.
+	
+- ** Gallery Features**:
+	Grid Structure: The grid-template-columns property dynamically adjusts the number of columns based on screen size using repeat(auto-fit, minmax(200px, 1fr)).
+	Responsiveness: Images rearrange into fewer columns on smaller screens while maintaining consistent spacing (gap).
+	Image Styling:
+	Images are styled with object-fit: cover to maintain their aspect ratio.
+	Rounded corners and box shadows for a polished appearance.
+	Hover Effect: Slight scaling adds interactivity.
+	**Responsive Behavior**:
+	Large Screens: Multiple columns for a spacious display.
+	Medium Screens: Reduced columns to fit the content nicely.
+	Small Screens: A single column, allowing images to stack vertically.
 
 ## Features
 
@@ -64,6 +76,7 @@ Can be placed on a website's homepage or dedicated testimonials section to build
   - Projects
   - Articles
   - Contact
+  - Form
 
 - **Navigation Bar**:
   A consistent navigation bar is present on all pages, linking to each page.
@@ -119,7 +132,20 @@ This project is fully responsive and optimized for:
 - Desktop screens
 
 ## Additional Features
-
+-
+- Tooltip Positioning:
+	The tooltip is absolutely positioned above the navigation link using bottom: 100% and centered horizontally with left: 50% and transform: translateX(-50%).
+	An arrow is added using ::after pseudo-element.
+	- Hover Effect:
+		Tooltips are hidden by default (opacity: 0; visibility: hidden).
+		On hover, they become visible and slide into position using a smooth transition.
+	-Responsive and Clean Design:
+		Navigation items are evenly spaced.
+		Tooltips are aligned and styled for readability.
+	-Accessibility:
+		Text in the tooltip provides clear context for the link.
+		Hover effects ensure a good user experience.
+	
 - Google Fonts Integration: Typography is enhanced using fonts from Google Fonts.
 - Dark Mode: Automatically adapts to the user's system preferences for light or dark mode.
 
@@ -146,3 +172,7 @@ https://roadmap.sh/projects/changelog-component
 https://roadmap.sh/projects/testimonial-cards
 
 https://roadmap.sh/projects/datepicker-ui
+
+https://roadmap.sh/projects/image-grid
+
+https://roadmap.sh/projects/tooltip-ui
